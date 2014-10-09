@@ -1,0 +1,728 @@
+/*
+====================================================================
+============================================================================
+============================== Universal=Start ===================================
+============================================================================
+====================================================================
+*/
+html {
+	background: #FFFFFF url('../images/bg.png') repeat;
+    overflow-x: hidden;
+    color: #000000
+
+}
+
+img {
+	border: 0px;
+
+}
+
+h1 {
+	margin-right: 10px;
+	margin-bottom: 1em;
+	margin-left: 10px;
+	margin-top: 0px;
+	font-family: arial, verdana, helvetica, sans-serif;
+	letter-spacing: 1px;
+	border-bottom-style: dotted;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-width: thin; 
+	color: #FFDD00;
+	font-size: 14px;
+
+}
+
+h3 { 
+	margin: 0px; 
+	padding: 0px;
+    font-size: 24px;
+
+}
+
+div {
+	border-radius: 7px;
+  
+}
+
+li {
+	list-style-image: url('../images/bullet.jpg');
+	list-style-position: inside;
+
+}
+
+#top { 
+	width: 616px; 
+	height: 60px;
+	color: #000000; 
+	padding-top: 10px;
+    padding-bottom: 0px;
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-size: 50px;
+	text-align: left;
+
+}
+
+.container {
+	background: transparent;
+	text-align: left;
+	width: 100%;
+	position: relative;
+
+} 
+
+.box {
+	background: transparent;
+	text-align: left;
+	width: 616px;
+	position: relative;
+	margin: auto;
+
+}
+
+.separate-top {
+    margin-right: 10px;
+    padding-top: 5px;
+    border-width: thin;
+    border-top-style: dotted;
+    border-color: #FFDD00;
+
+}
+
+.separate-bottom {
+    margin-right: 10px;
+    padding-bottom: 5px;
+    border-width: thin;
+    border-bottom-style: dotted;
+    border-color: #FFDD00;
+
+}
+
+.hangingindent {
+    padding-left: 10px ;
+    text-indent: -10px ;
+}
+
+
+
+
+
+
+/*
+----------------------------------------------------------------------------
+-------------------------------- NavBar=Start ------------------------------
+---------------------------------------------------------------------------- 
+*/
+#nav {
+	width: 616px;
+	height: 60px;
+	background: transparent;
+	margin-top: 20px;
+	text-shadow: 1px 1px 1px #000000;
+
+}
+
+#nav h3 {
+	width: 616px;
+	height: 10px;
+	background: transparent;
+	display: block;
+
+}
+
+#nav h3 span {
+	display: none;
+
+}
+
+#nav-bg {
+    background: #000000;
+    height: 24px;
+    margin: 0px;
+    padding-top: 9px;
+    padding-left: 4px;
+    padding-right: 4px;
+
+}
+
+/* ------- NavButtons=Start ------- */
+
+/* --- Button1 --- */
+#b1 {
+	width: 120px;
+	background: #FFDD00;
+	color: #FFFFFF;
+	margin-left: 0px;
+	position: absolute;
+	text-align: center;
+	font-size: 12px;
+
+}
+
+/* --- Button2 --- */
+#b2 {
+	width: 120px;
+	background: #DDBF00;
+	color: #FFFFFF;
+	margin-left: 122px;
+	position: absolute;
+	text-align: center;
+	font-size: 12px;
+
+}
+
+/* --- Button3 --- */
+#b3 {
+	width: 120px;
+	background: #BBA200;
+	color: #FFFFFF;
+	margin-left: 244px;
+	position: absolute;
+	text-align: center;
+	font-size: 12px;
+
+}
+
+/* --- Button4 --- */
+#b4 {
+	width: 120px;
+	background: #998400;
+	color: #FFFFFF;
+	margin-left: 366px;
+	position: absolute;
+	text-align: center;
+	font-size: 12px;
+
+}
+
+/* --- Button5 --- */
+#b5 {
+	width: 120px;
+	background: #776700;
+	color: #FFFFFF;
+	margin-left: 488px;
+	position: absolute;
+	text-align: center;
+	font-size: 12px;
+
+}
+
+/* -------- NavButtons=End -------- */
+
+
+/*
+----------------------------------------------------------------------------
+*/
+
+
+/* ------- NavButton_Hover_Effects=Start ------- */
+
+/* --- Button1_Hover --- */
+#b1 a {
+	color: #FFFFFF;
+	display: block;
+	font-size: 12px;
+    border-radius: 7px;
+
+}
+
+#b1 a:active, a:link, a:visited {
+	color: #FFFFFF;
+	font-family: arial, verdana, helvetica, sans-serif;
+	text-decoration: none;
+
+}
+
+#b1 a:hover {
+	width: 120px;
+	background: #FFFFFF;
+	color: #000000;
+	font-family: arial, verdana, helvetica, sans-serif;  
+	display: block;
+
+}
+
+/* --- Button2_Hover --- */
+#b2 a {
+	color: #FFFFFF;
+	display: block;
+	font-size: 12px;
+    border-radius: 7px;
+
+}
+
+#b2 a:active, a:link, a:visited {
+	color: #FFFFFF;
+	font-family: arial, verdana, helvetica, sans-serif;
+	text-decoration: none;
+
+}
+
+#b2 a:hover {
+	width: 120px;
+	background: #FFFFFF;
+	color: #000000;
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-size: 12px;
+
+}
+
+/* --- Button3_Hover --- */
+#b3 a {
+	color: #FFFFFF;
+	display: block;
+	font-size:12px;
+    border-radius: 7px;
+
+}
+
+#b3 a:active, a:link, a:visited {
+	color: #FFFFFF;
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+
+}
+
+#b3 a:hover {
+	width: 120px;
+	background: #FFFFFF;
+	color: #000000;
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-size: 12px;
+
+}
+
+/* --- Button4_Hover --- */
+#b4 a {
+	color: #FFFFFF;
+	display: block;
+	font-size: 12px;
+    border-radius: 7px;
+
+}
+
+#b4 a:active, a:link, a:visited {
+	color: #FFFFFF;
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+
+}
+
+#b4 a:hover {
+	width: 120px;
+	background: #FFFFFF;
+	color: #000000;
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-size: 12px;
+
+}
+
+/* --- Button5_Hover --- */
+#b5 a {
+	color: #FFFFFF;
+	display: block;
+	font-size: 12px;
+    border-radius: 7px;
+
+}
+
+#b5 a:active, a:link, a:visited {
+	color: #FFFFFF;
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+
+}
+
+#b5 a:hover {
+	width: 120px;
+	background: #ffffff;
+	color: #000000;
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-size: 12px;
+
+}
+
+/* -------- NavButton_Hover_Effects=End -------- */
+
+/*
+----------------------------------------------------------------------------
+-------------------------------- NavBar=Start ------------------------------
+---------------------------------------------------------------------------- 
+*/
+
+
+
+
+
+
+/*
+----------------------------------------------------------------------------
+------------------------------- Footer=Start -------------------------------
+---------------------------------------------------------------------------- 
+*/
+#footer {
+	width: 616px;
+	height: 20px;
+	background: transparent;
+	font-size: 13px;
+	text-align: center;
+	clear: both;
+	padding-top: 5px;
+	padding-right: 8px;
+	position: relative;
+	float: left;
+
+}
+
+#footer a {
+	color: #BBA200;
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-size: 13px;
+
+}
+
+#footer a:active, a:link, a:visited {
+	color: #BBA200;
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+
+}
+
+#footer a:hover {
+	color: #998400;
+
+}
+
+/*
+----------------------------------------------------------------------------
+------------------------------- Footer=Start -------------------------------
+---------------------------------------------------------------------------- 
+*/
+
+
+
+
+
+/*
+====================================================================
+============================================================================
+============================== Universal=End =====================================
+============================================================================
+====================================================================
+*/
+
+
+
+
+
+/*
+----------------------------------------------------------------------------
+-------------------------- Home_Page_Content=Start -------------------------
+---------------------------------------------------------------------------- 
+*/
+#content {
+	width: 480px;
+	background: #000000;
+	color: #ffffff;
+	padding-bottom: 5px; 
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-size: 13px;
+	position: relative;
+	float: left;
+	line-height: 16px;
+	
+}
+
+#content a {
+	color: #BBA200;
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-size: 13px;
+	font-style: italic;
+
+}
+
+#content a:active, a:link, a:visited {
+	color: #BBA200;
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-size: 13px;
+	font-style: italic;
+	text-decoration: none;
+
+}
+
+#content a:hover {
+	text-decoration: underline;
+
+}
+
+#content p {
+	margin-right: 1em;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	margin-top: 1em;
+	margin-bottom: 0px;
+
+}
+
+/*
+----------------------------------------------------------------------------
+--------------------------- Home_Page_Content=End --------------------------
+---------------------------------------------------------------------------- 
+*/
+
+
+
+
+
+/*
+----------------------------------------------------------------------------
+----------------------------- RightColumn=Start ----------------------------
+---------------------------------------------------------------------------- 
+*/
+#rb {
+	width: 120px;
+	background: #000000;
+	color: #ffffff;
+	padding-bottom: 5px;
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 12px;
+	position: relative;
+	float: right;
+
+}
+
+#rb a {
+	color: #BBA200;
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-size: 12px;
+
+}
+
+#rb a:active, a:link, a:visited {
+	color: #BBA200;
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+
+}
+
+#rb a:hover {
+	text-decoration: underline;
+
+}
+
+#rb h3 {
+	width: 120px;
+	height: 8px;
+	background: transparent;
+	display: block;
+
+}
+
+#rb h3 span {
+	display: none;
+
+}
+
+#rb ul {
+	list-style-type: none;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: -28px; 
+	padding-left: 28px; 
+	padding-top: 1px;
+	line-height: 12px;
+
+}
+
+#rb li {
+	list-style-image: url(../images/bullet.jpg);
+	list-style-position: inside;
+	margin-right: 0px;
+	margin-bottom: .5em;
+	margin-left: 0px;
+	margin-top: 1px; 
+	padding-left: 5px;
+    padding-right: 1px;
+	line-height: 12px;
+
+}
+
+/*
+----------------------------------------------------------------------------
+------------------------------ RightColumn=End -----------------------------
+---------------------------------------------------------------------------- 
+*/
+
+
+
+
+
+
+/*
+----------------------------------------------------------------------------
+---------------------------- Game_Content=Start ---------------------------
+---------------------------------------------------------------------------- 
+*/
+#game-content {
+	width: 616px;
+	background: #000000;
+	color: #ffffff;
+	padding-bottom: 5px; 
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-size: 13px;
+	position: relative;
+	float: left;
+	line-height: 16px;
+	
+}
+
+#game-content a {
+	color: #BBA200;
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-size: 13px;
+	font-style: italic;
+
+}
+
+#game-content a:active, a:link, a:visited {
+	color: #BBA200;
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-size: 13px;
+	font-style: italic;
+	text-decoration: none;
+
+}
+
+#game-content a:hover {
+	text-decoration: underline;
+
+}
+
+#game-content p {
+	margin-right: 1em;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	margin-top: 1em;
+	margin-bottom: 0px;
+
+}
+
+#game-content li {
+	list-style-image: url(../images/bullet.jpg);
+	list-style-position: inside;
+    padding-left: 22px ;
+    text-indent: -22px ;
+
+}
+
+/*
+----------------------------------------------------------------------------
+----------------------------- Game_Content=End -----------------------------
+---------------------------------------------------------------------------- 
+*/
+
+
+
+
+
+
+/*
+----------------------------------------------------------------------------
+--------------------------- Author_Content=Start ---------------------------
+---------------------------------------------------------------------------- 
+*/
+#author-content {
+	width: 616px;
+	background: #000000;
+	color: #ffffff;
+	padding-bottom: 5px; 
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-size: 13px;
+	position: relative;
+	float: left;
+	line-height: 16px;
+	
+}
+
+#author-content a {
+	color: #BBA200;
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-size: 13px;
+	font-style: italic;
+
+}
+
+#author-content a:active, a:link, a:visited {
+	color: #BBA200;
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-size: 13px;
+	font-style: italic;
+	text-decoration: none;
+
+}
+
+#author-content a:hover {
+	text-decoration: underline;
+
+}
+
+#author-content p {
+	margin-right: 1em;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	margin-top: 1em;
+	margin-bottom: 0px;
+
+}
+
+/*
+----------------------------------------------------------------------------
+---------------------------- Author_Content=End ----------------------------
+---------------------------------------------------------------------------- 
+*/
+
+
+
+/*
+----------------------------------------------------------------------------
+---------------------------- List_Content=Start ----------------------------
+---------------------------------------------------------------------------- 
+*/
+
+#list-content li {
+    font-size: 10px;
+}
+
+
+
+/*
+----------------------------------------------------------------------------
+----------------------------- List_Content=End -----------------------------
+---------------------------------------------------------------------------- 
+*/
+
+
+
+/*
+----------------------------------------------------------------------------
+---------------------------- Blog_Content=Start ----------------------------
+---------------------------------------------------------------------------- 
+*/
+
+#post-date {
+    color: #FFDD00;
+    font-style: italic;
+}
+
+
+/*
+----------------------------------------------------------------------------
+----------------------------- Blog_Content=End -----------------------------
+---------------------------------------------------------------------------- 
+*/
