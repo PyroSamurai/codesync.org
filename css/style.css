@@ -118,6 +118,7 @@ li {
 	width: 616px;
 	height: 60px;
 	background: transparent;
+	color: #000000;
 	margin-top: 20px;
 	text-shadow: 1px 1px 1px #000000;
 
@@ -152,7 +153,6 @@ li {
 #b1 {
 	width: 120px;
 	background: #DDBF00;
-	color: #FFFFFF;
 	margin-left: 0px;
 	position: absolute;
 	text-align: center;
@@ -164,7 +164,6 @@ li {
 #b2 {
 	width: 120px;
 	background: #DDBF00;
-	color: #FFFFFF;
 	margin-left: 122px;
 	position: absolute;
 	text-align: center;
@@ -176,7 +175,6 @@ li {
 #b3 {
 	width: 120px;
 	background: #DDBF00;
-	color: #FFFFFF;
 	margin-left: 244px;
 	position: absolute;
 	text-align: center;
@@ -188,7 +186,6 @@ li {
 #b4 {
 	width: 120px;
 	background: #DDBF00;
-	color: #FFFFFF;
 	margin-left: 366px;
 	position: absolute;
 	text-align: center;
