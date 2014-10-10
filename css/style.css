@@ -137,6 +137,9 @@ li {
 
 }
 
+#nav a {color: #000000;}
+#nav a:active, a:link, a:visited, a:hover {color: #000000;}
+
 #nav-bg {
     background: #000000;
     height: 24px;
@@ -197,7 +200,6 @@ li {
 #b5 {
 	width: 120px;
 	background: #DDBF00;
-	color: #FFFFFF;
 	margin-left: 488px;
 	position: absolute;
 	text-align: center;
@@ -217,7 +219,6 @@ li {
 
 /* --- Button1_Hover --- */
 #b1 a {
-	color: #FFFFFF;
 	display: block;
 	font-size: 12px;
     border-radius: 7px;
@@ -225,7 +226,6 @@ li {
 }
 
 #b1 a:active, a:link, a:visited {
-	color: #FFFFFF;
 	font-family: arial, verdana, helvetica, sans-serif;
 	text-decoration: none;
 
@@ -234,7 +234,6 @@ li {
 #b1 a:hover {
 	width: 120px;
 	background: #FFFFFF;
-	color: #000000;
 	font-family: arial, verdana, helvetica, sans-serif;  
 	display: block;
 
@@ -242,7 +241,6 @@ li {
 
 /* --- Button2_Hover --- */
 #b2 a {
-	color: #FFFFFF;
 	display: block;
 	font-size: 12px;
     border-radius: 7px;
@@ -250,7 +248,6 @@ li {
 }
 
 #b2 a:active, a:link, a:visited {
-	color: #FFFFFF;
 	font-family: arial, verdana, helvetica, sans-serif;
 	text-decoration: none;
 
@@ -259,7 +256,6 @@ li {
 #b2 a:hover {
 	width: 120px;
 	background: #FFFFFF;
-	color: #000000;
 	font-family: arial, verdana, helvetica, sans-serif;
 	font-size: 12px;
 
@@ -267,7 +263,6 @@ li {
 
 /* --- Button3_Hover --- */
 #b3 a {
-	color: #FFFFFF;
 	display: block;
 	font-size:12px;
     border-radius: 7px;
@@ -275,7 +270,6 @@ li {
 }
 
 #b3 a:active, a:link, a:visited {
-	color: #FFFFFF;
 	font-family: arial, verdana, helvetica, sans-serif;
 	font-size: 12px;
 	text-decoration: none;
@@ -285,7 +279,6 @@ li {
 #b3 a:hover {
 	width: 120px;
 	background: #FFFFFF;
-	color: #000000;
 	font-family: arial, verdana, helvetica, sans-serif;
 	font-size: 12px;
 
@@ -293,7 +286,6 @@ li {
 
 /* --- Button4_Hover --- */
 #b4 a {
-	color: #FFFFFF;
 	display: block;
 	font-size: 12px;
     border-radius: 7px;
@@ -301,7 +293,6 @@ li {
 }
 
 #b4 a:active, a:link, a:visited {
-	color: #FFFFFF;
 	font-family: arial, verdana, helvetica, sans-serif;
 	font-size: 12px;
 	text-decoration: none;
@@ -311,7 +302,6 @@ li {
 #b4 a:hover {
 	width: 120px;
 	background: #FFFFFF;
-	color: #000000;
 	font-family: arial, verdana, helvetica, sans-serif;
 	font-size: 12px;
 
@@ -319,7 +309,6 @@ li {
 
 /* --- Button5_Hover --- */
 #b5 a {
-	color: #FFFFFF;
 	display: block;
 	font-size: 12px;
     border-radius: 7px;
@@ -327,7 +316,6 @@ li {
 }
 
 #b5 a:active, a:link, a:visited {
-	color: #FFFFFF;
 	font-family: arial, verdana, helvetica, sans-serif;
 	font-size: 12px;
 	text-decoration: none;
@@ -336,8 +324,7 @@ li {
 
 #b5 a:hover {
 	width: 120px;
-	background: #ffffff;
-	color: #000000;
+	background: #FFFFFF;
 	font-family: arial, verdana, helvetica, sans-serif;
 	font-size: 12px;
 
