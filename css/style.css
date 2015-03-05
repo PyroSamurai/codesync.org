@@ -15,7 +15,13 @@ html {
 
 img {border: 0px;}
 
-h1 {
+h1 { 
+    margin: 0px; 
+    padding: 0px;
+    font-size: 20px;
+}
+
+h3 {
 	margin-right: 10px;
 	margin-bottom: 1em;
 	margin-left: 10px;
@@ -30,19 +36,13 @@ h1 {
 
 }
 
-h3 { 
-    margin: 0px; 
-    padding: 0px;
-    font-size: 20px;
 
-}
 
 div {border-radius: 7px;}
 
 li {
 	list-style-image: url('../images/bullet.jpg');
 	list-style-position: inside;
-
 }
 
 #top { 
@@ -115,15 +115,6 @@ li {
 	text-shadow: 1px 1px 1px #000000;
 
 }
-
-#nav h3 {
-	width: 616px;
-	height: 10px;
-	background: transparent;
-	display: block;
-}
-
-#nav h3 span {display: none;}
 
 #nav a, a:active, a:link, a:visited, a:hover {color: #000000;}
 
@@ -287,7 +278,7 @@ li {
 
 /*
 ----------------------------------------------------------------------------
--------------------------------- NavBar=Start ------------------------------
+-------------------------------- NavBar=End --------------------------------
 ---------------------------------------------------------------------------- 
 */
 
@@ -320,7 +311,6 @@ li {
 #footer a:active, a:link, a:visited {
 	color: #BBA200;
 	text-decoration: none;
-
 }
 
 #footer a:hover {color: #998400;}
@@ -431,15 +421,7 @@ li {
 
 #rb a:hover {text-decoration: underline;}
 
-#rb h3 {
-	width: 120px;
-	height: 8px;
-	background: transparent;
-	display: block;
 
-}
-
-#rb h3 span {display: none;}
 
 #rb ul {
 	list-style-type: none;
