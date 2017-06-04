@@ -343,7 +343,7 @@ li {
 ---------------------------------------------------------------------------- 
 */
 #content {
-	width: 480px;
+	width: 616px;
 	background: #000000;
 	color: #ffffff;
 	padding-bottom: 5px;
@@ -385,74 +385,6 @@ li {
 --------------------------- Home_Page_Content=End --------------------------
 ---------------------------------------------------------------------------- 
 */
-
-
-
-
-
-/*
-----------------------------------------------------------------------------
------------------------------ RightColumn=Start ----------------------------
----------------------------------------------------------------------------- 
-*/
-#rb {
-	width: 120px;
-	background: #000000;
-	color: #ffffff;
-	padding-bottom: 5px;
-	font-size: 12px;
-	line-height: 12px;
-	position: relative;
-	float: right;
-
-}
-
-#rb a {
-	color: #BBA200;
-	font-size: 12px;
-
-}
-
-#rb a:active, a:link, a:visited {
-	color: #BBA200;
-	text-decoration: none;
-
-}
-
-#rb a:hover {text-decoration: underline;}
-
-
-
-#rb ul {
-	list-style-type: none;
-	margin-right: 5px;
-	margin-bottom: 0px;
-	margin-left: -28px; 
-	padding-left: 28px; 
-	padding-top: 1px;
-	line-height: 12px;
-
-}
-
-#rb li {
-	list-style-image: url('../images/bullet.jpg');
-	list-style-position: inside;
-	margin-right: 0px;
-	margin-bottom: .5em;
-	margin-left: 0px;
-	margin-top: 1px; 
-	padding-left: 5px;
-    padding-right: 1px;
-	line-height: 12px;
-
-}
-
-/*
-----------------------------------------------------------------------------
------------------------------- RightColumn=End -----------------------------
----------------------------------------------------------------------------- 
-*/
-
 
 
 
